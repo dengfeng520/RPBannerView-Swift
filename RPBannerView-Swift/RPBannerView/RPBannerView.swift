@@ -141,7 +141,7 @@ class RPBannerView: UIView, BannerDisplayProtocol {
     }
     
     /// 当前设备是否是iPhone X之后的机型
-    public var isiPhoneX: Bool {
+    private var isiPhoneX: Bool {
         if #available(iOS 11.0, *) {
             let keyWindow = UIApplication.shared.keyWindow
             let bottomSafeInset = keyWindow?.safeAreaInsets.bottom
