@@ -48,7 +48,11 @@ class RPBannerView: UIView, BannerDisplayProtocol {
     private func configUI() {
         self.addView!.addSubview(self)
         if self.showMode == .mobileMode {
-            self.frame = CGRect(x: -rp_screenWidth, y: self.top!, width: 0, height: 0)
+            var topnum = self.top!
+            if isiPhoneX == true {
+                topnum = self.top! + 34
+            }
+            self.frame = CGRect(x: -rp_screenWidth, y: topnum, width: 0, height: 0)
         } else {
             self.frame = CGRect(x: rp_screenWidth / 2, y: 0, width: 0, height: 0)
         }
@@ -134,6 +138,18 @@ class RPBannerView: UIView, BannerDisplayProtocol {
             }
         }
         return retView
+    }
+    
+    /// 当前设备是否是iPhone X之后的机型
+    public var isiPhoneX: Bool {
+        if #available(iOS 11.0, *) {
+            let keyWindow = UIApplication.shared.keyWindow
+            let bottomSafeInset = keyWindow?.safeAreaInsets.bottom
+            if bottomSafeInset == 34 || bottomSafeInset == 21 {
+                return true
+            }
+        }
+        return false
     }
     
     deinit {
