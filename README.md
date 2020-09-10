@@ -1,6 +1,9 @@
 
 <h3> Carthage </h3>
 
+![Carthage](https://github.com/Carthage/Carthage/raw/master/Logo/PNG/header.png)
+
+
 ```
 cd Desktop/RPBannerView-Swift/
 git clone https://github.com/dengfeng520/RPBannerView-Swift.git
@@ -9,7 +12,6 @@ git commit -a -m "上传代码"
 git push origin master
 git ll // 查看上传记录
 ```
-
 
 在Terminal中cd到工程文件，执行build命令，
 ```
@@ -68,9 +70,8 @@ RPBanner.showBanner(BannerDisplay(title: "test loading..." ,backColor: UIColor.r
 
 ```
 cd Desktop/RPBannerView-Swift/
-pod spec create RPBannerView
-vim RPBannerView.podspec
-
+pod spec create RPBannerView-Swift
+vim RPBannerView-Swift.podspec
 ```
 
 ```
@@ -90,6 +91,48 @@ spec.framework  = "Foundation", "UIKit"
 end
 ```
 
+```
+pod spec lint RPBannerView-Swift.podspec --allow-warnings
+```
+```
+RPBannerView-Swift.podspec passed validation. 
+```
+代表成功。
 
+注册CocoaPods帐号，
+```
+pod trunk register deng_feng520@163.com 'dengfeng520' --description='dengfeng520'
 
+```
+查看CocoaPods帐号信息：
+```pod trunk me
+```
+如果已经注册了，直接发布到CocoaPods服务器：
+
+```
+pod trunk push RPBannerView-Swift.podspec --allow-warnings
+```
+
+发布成功后更新CocoaPods本地库:
+
+```
+ pod setup
+```
+然后搜索
+
+```
+pod search RPBannerView-Swift
+```
+
+创建Podfile
+```
+pod init
+vim Podfile
+pod 'RPBannerView-Swift', :git => 'https://github.com/dengfeng520/RPBannerView-Swift'
+pod install
+```
+
+```
+Pod installation complete! There are 1 dependencies from the Podfile and 1 total pods installed.
+```
 

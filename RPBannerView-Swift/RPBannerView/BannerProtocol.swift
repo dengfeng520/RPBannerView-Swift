@@ -36,7 +36,7 @@ public struct BannerDisplay: BannerDisplayProtocol {
     public var titleFontSize: CGFloat?
     var windows: UIWindow?
     
-    public init(title: String? = "Loading...", backColor: UIColor? = .red, top: CGFloat? = 30, addView: UIView? = nil, time: Float? = 1.5, mode: BannerShowMode? = nil, fontSize: CGFloat? = 13) {
+    public init(title: String? = "Loading...", backColor: UIColor? = UIColor.init(red: 48/255.0, green: 48/255.0, blue: 48/255.0, alpha: 1), top: CGFloat? = 30, addView: UIView? = nil, time: Float? = 1.5, mode: BannerShowMode? = nil, fontSize: CGFloat? = 13) {
         self.title = title
         self.backColor = backColor
         self.top = top

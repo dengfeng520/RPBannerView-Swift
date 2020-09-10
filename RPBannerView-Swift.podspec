@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint RPBannerView.podspec' to ensure this is a
+#  Be sure to run `pod spec lint RPBannerView-Swift.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "RPBannerView-Swift"
   spec.version      = "1.0"
-  spec.summary      = "A short description of RPBannerView."
+  spec.summary      = "A short description of RPBannerView-Swift."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -90,7 +90,6 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "RPBannerView-Swift/RPBannerView/*.swift"
-  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -115,7 +114,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-spec.framework  = "Foundation", "UIKit"
+  spec.framework  = "Foundation", "UIKit"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
