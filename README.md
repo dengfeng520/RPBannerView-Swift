@@ -27,3 +27,13 @@ Dependency "RPBannerView-Swift" has no shared framework schemes`
 git tag 1.0
 git push --tags
 ```
+新建一个测试工程，命名为RPBannerViewDemo
+
+```
+cd RPBannerViewDemo
+touch Cartfile
+Vim Cartfile
+git "dengfeng520/RPBannerView"
+Esc -> :wq
+carthage update --platform iOS
+```
