@@ -1,4 +1,6 @@
-<p align="center">RPBannerView</P>
+<p align="center">
+<img src="https://github.com/dengfeng520/RPBannerView-Swift/blob/master/RPBanner.png?raw=true" alt= "RPBannerView" title="RPBannerView" width="180">
+</P>
 
 ```
 cd Desktop/RPBannerView-Swift/
