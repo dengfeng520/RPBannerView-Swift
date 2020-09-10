@@ -7,6 +7,14 @@ git push origin master
 git ll // 查看上传记录
 ```
 
+创建tag
+
+```
+cd Desktop/RPBannerView-Swift/
+git tag 1.0
+git push --tags
+```
+
 在Terminal中cd到工程文件，执行build命令，
 ```
 cd Desktop/RPBannerView-Swift/
@@ -21,12 +29,7 @@ Dependency "RPBannerView-Swift" has no shared framework schemes`
 
 `Building scheme "RPBannerView" in RPBannerView-Swift.xcodeproj`
 
-创建tag
 
-```
-git tag 1.0
-git push --tags
-```
 新建一个测试工程，命名为RPBannerViewDemo
 
 ```
