@@ -1,3 +1,5 @@
+<p align="center">RPBannerView</P>
+
 ```
 cd Desktop/RPBannerView-Swift/
 git clone https://github.com/dengfeng520/RPBannerView-Swift.git
@@ -40,15 +42,23 @@ git push --tags
 ```
 
 
-
-
-新建一个测试工程，命名为RPBannerViewDemo
-
 ```
 cd RPBannerViewDemo
 touch Cartfile
 Vim Cartfile
-git "dengfeng520/RPBannerView"
+github "dengfeng520/RPBannerView-Swift"
 Esc -> :wq
 carthage update --platform iOS
+```
+
+```
+/usr/local/bin/Carthage copy-frameworks
+```
+```
+$(SRCROOT)/Carthage/Build/iOS/RPBannerView.framework
+```
+```
+import RPBannerView
+
+RPBanner.showBanner(BannerDisplay(title: "test loading..." ,backColor: UIColor.red, addView: view))
 ```
