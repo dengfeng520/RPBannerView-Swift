@@ -1,0 +1,6 @@
+framework module RPBannerView {
+  umbrella header "RPBannerView.h"
+
+  export *
+  module * { export * }
+}

@@ -13,6 +13,8 @@
 		</dict>
 		<key>RPBannerView.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
@@ -20,6 +22,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>1D422D0C2508BC4300A8B949</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D422D332508E7E200A8B949</key>
 		<dict>
 			<key>primary</key>
 			<true/>

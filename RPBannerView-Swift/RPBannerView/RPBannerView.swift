@@ -140,7 +140,7 @@ class RPBannerView: UIView, BannerDisplayProtocol {
         return retView
     }
     
-    /// 当前设备是否是iPhone X之后的机型
+    // TODO: - 当前设备是否是iPhone X之后的机型
     private var isiPhoneX: Bool {
         if #available(iOS 11.0, *) {
             let keyWindow = UIApplication.shared.keyWindow

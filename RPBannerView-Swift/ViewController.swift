@@ -25,7 +25,6 @@ class ViewController: UIViewController {
             RPBanner.hiddenBanner()
         }
     }
-
 }
 
 extension UIColor {
