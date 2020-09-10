@@ -2,6 +2,8 @@
 <img src="https://github.com/dengfeng520/RPBannerView-Swift/blob/master/RPBanner.png?raw=true" alt= "RPBannerView" title="RPBannerView" width="180">
 </P>
 
+<h3> Carthage </h3>
+
 ```
 cd Desktop/RPBannerView-Swift/
 git clone https://github.com/dengfeng520/RPBannerView-Swift.git
@@ -64,3 +66,8 @@ import RPBannerView
 
 RPBanner.showBanner(BannerDisplay(title: "test loading..." ,backColor: UIColor.red, addView: view))
 ```
+
+<h3> CocoaPods </h3>
+
+
+
