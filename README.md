@@ -1,6 +1,3 @@
-<p align="center">
-<img src="https://github.com/dengfeng520/RPBannerView-Swift/blob/master/RPBanner.png?raw=true" alt= "RPBannerView" title="RPBannerView" width="180">
-</P>
 
 <h3> Carthage </h3>
 
@@ -68,6 +65,31 @@ RPBanner.showBanner(BannerDisplay(title: "test loading..." ,backColor: UIColor.r
 ```
 
 <h3> CocoaPods </h3>
+
+```
+cd Desktop/RPBannerView-Swift/
+pod spec create RPBannerView
+vim RPBannerView.podspec
+
+```
+
+```
+Pod::Spec.new do |spec|
+spec.name         = "RPBannerView-Swift"
+spec.version      = "1.0"
+spec.summary      = "A short description of RPBannerView."
+spec.description  = "RPBannerView-Swift"
+spec.homepage     = "https://github.com/dengfeng520/RPBannerView-Swift"
+spec.license      = { :type => "MIT", :file => "LICENSE" }
+spec.author             = { "dengfeng520" => "deng_feng520@163.com" }
+spec.platform     = :ios
+spec.ios.deployment_target = "11.0"
+spec.source       = { :git => "https://github.com/dengfeng520/RPBannerView-Swift", :tag => "#{spec.version}" }
+spec.source_files  = "RPBannerView-Swift/RPBannerView/*.swift"
+spec.framework  = "Foundation", "UIKit"
+end
+```
+
 
 
 
