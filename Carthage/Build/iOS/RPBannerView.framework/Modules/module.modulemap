@@ -4,3 +4,8 @@ framework module RPBannerView {
   export *
   module * { export * }
 }
+
+module RPBannerView.Swift {
+    header "RPBannerView-Swift.h"
+    requires objc
+}
