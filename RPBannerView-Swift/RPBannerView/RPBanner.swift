@@ -10,7 +10,7 @@ import UIKit
 
 public class RPBanner: ShowBannerProtocol {
     static func hiddenBanner() {
-        bannerView.hiddenBanner(Int(0.1))
+        bannerView.hiddenBanner(0)
     }
     
     static var bannerView: RPBannerView!
@@ -22,7 +22,7 @@ public class RPBanner: ShowBannerProtocol {
                 return
             }
             let mode = r.showMode ?? .popMode
-            bannerView = RPBannerView(r.title!, r.backColor!, r.top!, addView, r.showTime!, mode, r.titleFontSize!)
+            bannerView = RPBannerView(r.title!, r.backColor!, r.titleColor!, r.top!, addView, r.showTime!, mode, r.titleFontSize!)
         }
     }
     

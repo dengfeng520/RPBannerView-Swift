@@ -12,6 +12,7 @@ class RPBannerView: UIView, BannerDisplayProtocol {
     var showTime: Float?
     var titleFontSize: CGFloat?
     var title: String?
+    var titleColor: UIColor?
     var backColor: UIColor?
     var top: CGFloat?
     var addView: UIView?
@@ -28,10 +29,11 @@ class RPBannerView: UIView, BannerDisplayProtocol {
         super.init(frame: frame)
     }
     
-    convenience init(_ title: String, _ bgColor: UIColor, _ top: CGFloat, _ addView: UIView, _ showTime: Float, _ mode: BannerShowMode, _ size: CGFloat) {
+    convenience init(_ title: String, _ bgColor: UIColor, _ titleColor: UIColor, _ top: CGFloat, _ addView: UIView, _ showTime: Float, _ mode: BannerShowMode, _ size: CGFloat) {
         self.init()
         self.title = title
         self.backColor = bgColor
+        self.titleColor = titleColor
         self.top = top
         self.addView = addView
         self.showMode = mode
@@ -87,6 +89,7 @@ class RPBannerView: UIView, BannerDisplayProtocol {
         titleLab.text = self.title
         titleLab.font = UIFont(name: "PingFangTC-Semibold", size: self.titleFontSize!)
         titleLab.numberOfLines = 0
+        titleLab.textColor = self.titleColor
         
         self.layoutIfNeeded()
         self.layer.cornerRadius = self.frame.size.height / 2

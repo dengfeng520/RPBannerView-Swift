@@ -18,6 +18,7 @@ public protocol BannerDisplayProtocol {
     var title: String? { get }
     // background color
     var backColor: UIColor? { get }
+    var titleColor: UIColor? { get }
     // 距离顶部距离
     var top: CGFloat? { get }
     var addView: UIView? { get }
@@ -29,6 +30,7 @@ public protocol BannerDisplayProtocol {
 public struct BannerDisplay: BannerDisplayProtocol {
     public var title: String?
     public var backColor: UIColor?
+    public var titleColor: UIColor?
     public var top: CGFloat?
     public var addView: UIView?
     public var showTime: Float?
@@ -36,9 +38,10 @@ public struct BannerDisplay: BannerDisplayProtocol {
     public var titleFontSize: CGFloat?
     var windows: UIWindow?
     
-    public init(title: String? = "Loading...", backColor: UIColor? = UIColor.init(red: 48/255.0, green: 48/255.0, blue: 48/255.0, alpha: 1), top: CGFloat? = 30, addView: UIView? = nil, time: Float? = 1.5, mode: BannerShowMode? = nil, fontSize: CGFloat? = 13) {
+    public init(title: String? = "Loading...", backColor: UIColor? = UIColor.init(red: 48/255.0, green: 48/255.0, blue: 48/255.0, alpha: 1), titleColor: UIColor? = UIColor.white, top: CGFloat? = 30, addView: UIView? = nil, time: Float? = 1.5, mode: BannerShowMode? = nil, fontSize: CGFloat? = 13) {
         self.title = title
         self.backColor = backColor
+        self.titleColor = titleColor
         self.top = top
         self.addView = addView
         self.showTime = time
