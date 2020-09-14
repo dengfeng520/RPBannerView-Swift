@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         touchNum = touchNum + 1
         if touchNum % 2 == 0 {
-            RPBanner.showBanner(BannerDisplay(title: "Physical Fitness Sport Science and Technology Co.,Ltd.", addView: view ,time: 0, mode: .mobileMode))
+            RPBanner.showBanner(BannerDisplay(title: "test test text...test test text...", addView: view ,time: 0, mode: .mobileMode))
         } else {
             RPBanner.hiddenBanner()
         }

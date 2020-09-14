@@ -12,7 +12,7 @@
   "iOS" : [
     {
       "name" : "RPBannerView",
-      "hash" : "9db6b480531e2be4ec5d83cab996705d918a59fbb979c4794e93cd9a05bedbc8",
+      "hash" : "7c63800851d652e96f51375e0cadf2851767babe48f624a97051920ee1ed8bc2",
       "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
     }
   ]
