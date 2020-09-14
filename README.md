@@ -8,3 +8,7 @@
 <p align="center">
 <img src="https://github.com/dengfeng520/RPBannerView-Swift/blob/master/RPBanner.png?raw=true" alt= "RPBannerView" title="RPBannerView" width="180">
 </P>
+
+![A16](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/500920f90ca1485ca638e5db82af1771~tplv-k3u1fbpfcp-zoom-1.image)
+
+![A17](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f002b0aecf144ce6a9265c2a3aab5d50~tplv-k3u1fbpfcp-zoom-1.image)
