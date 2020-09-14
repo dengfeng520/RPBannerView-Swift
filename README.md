@@ -9,6 +9,11 @@
 
 **RPBannerView**是一个轻量级的Banner提示框。支持**iOS 11、Swift 5.0**之后的版本。推荐使用**CocoaPods**和**Carthage**将其添加到工程中。
 
+
+![A16](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/500920f90ca1485ca638e5db82af1771~tplv-k3u1fbpfcp-zoom-1.image)
+
+![A17](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f002b0aecf144ce6a9265c2a3aab5d50~tplv-k3u1fbpfcp-zoom-1.image)
+
 <h3>Carthage</h3>
 
 * 1、 导入工程 
@@ -77,11 +82,6 @@ RPBanner.showBanner(BannerDisplay(title: "test loading..." ,backColor: UIColor.r
 // 隐藏
 RPBanner.hiddenBanner()
 ```
-
-
-![A16](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/500920f90ca1485ca638e5db82af1771~tplv-k3u1fbpfcp-zoom-1.image)
-
-![A17](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f002b0aecf144ce6a9265c2a3aab5d50~tplv-k3u1fbpfcp-zoom-1.image)
 
 
 
