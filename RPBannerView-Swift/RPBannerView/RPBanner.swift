@@ -9,10 +9,6 @@
 import UIKit
 
 public class RPBanner: ShowBannerProtocol {
-    static func hiddenBanner() {
-        bannerView.hiddenBanner(0)
-    }
-    
     static var bannerView: RPBannerView!
     
     public static func showBanner<T>(_ r: T) where T : BannerDisplayProtocol {
@@ -26,6 +22,12 @@ public class RPBanner: ShowBannerProtocol {
         }
     }
     
+    public static func hiddenBanner() {
+        bannerView.hiddenBanner(0)
+    }
+}
+
+extension RPBanner {
     static var windows: UIWindow? {
         if #available(iOS 13.0, *) {
             for windowScene: UIWindowScene in ((UIApplication.shared.connectedScenes as? Set<UIWindowScene>)!) {
@@ -38,5 +40,4 @@ public class RPBanner: ShowBannerProtocol {
         }
         return nil
     }
-    
 }
