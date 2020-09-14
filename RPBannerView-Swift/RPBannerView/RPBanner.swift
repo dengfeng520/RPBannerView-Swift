@@ -27,6 +27,21 @@ public class RPBanner: ShowBannerProtocol {
     }
 }
 
+
+extension RPBanner {
+    public class func show(with mode: BannerMode, body: String, isView: UIView) {
+        var bgColor: UIColor
+        if mode == .warningMode {
+            bgColor = UIColor(red: 248.0/255.0, green: 73.0/255.0, blue: 73.0/255.0, alpha: 1)
+        } else if mode == .successMode {
+            bgColor = UIColor(red: 62.0/255.0, green: 205.0/255.0, blue: 161.0/255.0, alpha: 1)
+        } else {
+            bgColor = UIColor(red: 48.0/255.0, green: 48.0/255.0, blue: 48.0/255.0, alpha: 1)
+        }
+        RPBanner.showBanner(BannerDisplay(title: body, backColor: bgColor, addView: isView, time: 1.5))
+    }
+}
+
 extension RPBanner {
     static var windows: UIWindow? {
         if #available(iOS 13.0, *) {

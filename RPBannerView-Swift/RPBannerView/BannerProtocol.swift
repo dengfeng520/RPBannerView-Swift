@@ -50,6 +50,13 @@ public struct BannerDisplay: BannerDisplayProtocol {
     }
 }
 
+public enum BannerMode {
+    case warningMode
+    case perfectionMode
+    case successMode
+}
+
+
 protocol ShowBannerProtocol {
     static func showBanner<T>(_ r: T) where T : BannerDisplayProtocol
     static func hiddenBanner()
