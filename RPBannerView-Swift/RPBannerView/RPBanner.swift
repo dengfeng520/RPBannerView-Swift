@@ -27,7 +27,7 @@ public class RPBanner: ShowBannerProtocol {
     }
 }
 
-
+// 兼容OC版
 extension RPBanner {
     public class func show(with mode: BannerMode, body: String, isView: UIView) {
         var bgColor: UIColor
