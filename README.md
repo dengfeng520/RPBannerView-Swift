@@ -61,19 +61,19 @@ RPBanner.hiddenBanner()
 自定义BannerView:
 
 ```
-var display = BannerDisplay()
-            display.title = "this is test text.... this is test text.... this is test text...."
-            display.showMode = .popMode
-            display.addView = view
-            display.showTime = 5
-            display.top = 15
-            display.backColor = UIColor(red: 245.0/255.0, green: 190.0/255.0, blue: 98.0/255.0, alpha: 1)
-            display.titleColor = .white
-            display.titleFontSize = 14.5
-            RPBanner.showBanner(display)
+  var display = BannerDisplay()
+  display.title = "this is test text.... this is test text.... this is test text...."
+  display.showMode = .popMode
+  display.addView = view
+  display.showTime = 5
+  display.top = 15
+  display.backColor = UIColor(red: 245.0/255.0, green: 190.0/255.0, blue: 98.0/255.0, alpha: 1)
+  display.titleColor = .white
+  display.titleFontSize = 14.5
+  RPBanner.showBanner(display)
 ```
 
-
+![自定义View](https://github.com/dengfeng520/RPBannerView-Swift/blob/master/A18.jpg?raw=true)
 
 * 4、兼容OC版本
 
