@@ -8,10 +8,10 @@
   "tvOS" : [
 
   ],
-  "commitish" : "ba6c1701141c75fdecae4998d13083ccf56dc298",
+  "commitish" : "cdc3aefb24577e2be19a6565ba51cd6320077f70",
   "iOS" : [
     {
-      "hash" : "781d6daca8ee8fe1436323cd6b72707c80ebe46b60db62b956e5e5fd629375ee",
+      "hash" : "aec394eb0d3cf0bcdee6678672c8df6106a591388ba7bb79e924593efff420ea",
       "name" : "RPBannerView",
       "linking" : "dynamic",
       "swiftToolchainVersion" : "5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
