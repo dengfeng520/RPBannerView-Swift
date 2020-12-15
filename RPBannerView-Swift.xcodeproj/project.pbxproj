@@ -14,12 +14,12 @@
 		1D422D1A2508BC4500A8B949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D422D192508BC4500A8B949 /* Assets.xcassets */; };
 		1D422D1D2508BC4500A8B949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D422D1B2508BC4500A8B949 /* LaunchScreen.storyboard */; };
 		1D422D282508BD9000A8B949 /* BannerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D422D252508BD9000A8B949 /* BannerProtocol.swift */; };
-		1D422D292508BD9000A8B949 /* RPBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D422D262508BD9000A8B949 /* RPBannerView.swift */; };
-		1D422D2A2508BD9000A8B949 /* RPBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D422D272508BD9000A8B949 /* RPBanner.swift */; };
+		1D422D292508BD9000A8B949 /* RPSubBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D422D262508BD9000A8B949 /* RPSubBannerView.swift */; };
+		1D422D2A2508BD9000A8B949 /* RPBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D422D272508BD9000A8B949 /* RPBannerView.swift */; };
 		1D422D382508E7E200A8B949 /* RPBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D422D362508E7E200A8B949 /* RPBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D422D92250A07F100A8B949 /* BannerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D422D252508BD9000A8B949 /* BannerProtocol.swift */; };
-		1D422D93250A07F100A8B949 /* RPBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D422D272508BD9000A8B949 /* RPBanner.swift */; };
-		1D422D94250A07F100A8B949 /* RPBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D422D262508BD9000A8B949 /* RPBannerView.swift */; };
+		1D422D93250A07F100A8B949 /* RPBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D422D272508BD9000A8B949 /* RPBannerView.swift */; };
+		1D422D94250A07F100A8B949 /* RPSubBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D422D262508BD9000A8B949 /* RPSubBannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		1D422D1C2508BC4500A8B949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D422D1E2508BC4500A8B949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D422D252508BD9000A8B949 /* BannerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerProtocol.swift; sourceTree = "<group>"; };
-		1D422D262508BD9000A8B949 /* RPBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPBannerView.swift; sourceTree = "<group>"; };
-		1D422D272508BD9000A8B949 /* RPBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPBanner.swift; sourceTree = "<group>"; };
+		1D422D262508BD9000A8B949 /* RPSubBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSubBannerView.swift; sourceTree = "<group>"; };
+		1D422D272508BD9000A8B949 /* RPBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPBannerView.swift; sourceTree = "<group>"; };
 		1D422D342508E7E200A8B949 /* RPBannerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RPBannerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D422D362508E7E200A8B949 /* RPBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPBannerView.h; sourceTree = "<group>"; };
 		1D422D372508E7E200A8B949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				1D422D252508BD9000A8B949 /* BannerProtocol.swift */,
-				1D422D272508BD9000A8B949 /* RPBanner.swift */,
-				1D422D262508BD9000A8B949 /* RPBannerView.swift */,
+				1D422D272508BD9000A8B949 /* RPBannerView.swift */,
+				1D422D262508BD9000A8B949 /* RPSubBannerView.swift */,
 			);
 			path = RPBannerView;
 			sourceTree = "<group>";
@@ -222,10 +222,10 @@
 			files = (
 				1D422D152508BC4300A8B949 /* ViewController.swift in Sources */,
 				1D422D112508BC4300A8B949 /* AppDelegate.swift in Sources */,
-				1D422D292508BD9000A8B949 /* RPBannerView.swift in Sources */,
+				1D422D292508BD9000A8B949 /* RPSubBannerView.swift in Sources */,
 				1D422D132508BC4300A8B949 /* SceneDelegate.swift in Sources */,
 				1D422D282508BD9000A8B949 /* BannerProtocol.swift in Sources */,
-				1D422D2A2508BD9000A8B949 /* RPBanner.swift in Sources */,
+				1D422D2A2508BD9000A8B949 /* RPBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,8 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D422D92250A07F100A8B949 /* BannerProtocol.swift in Sources */,
-				1D422D93250A07F100A8B949 /* RPBanner.swift in Sources */,
-				1D422D94250A07F100A8B949 /* RPBannerView.swift in Sources */,
+				1D422D93250A07F100A8B949 /* RPBannerView.swift in Sources */,
+				1D422D94250A07F100A8B949 /* RPSubBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

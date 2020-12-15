@@ -28,9 +28,9 @@ class ViewController: UIViewController {
             display.backColor = UIColor(red: 245.0/255.0, green: 190.0/255.0, blue: 98.0/255.0, alpha: 1)
             display.titleColor = .white
             display.titleFontSize = 14.5
-            RPBanner.showBanner(display)
+            RPBannerView.showBanner(display)
         } else {
-            RPBanner.hiddenBanner()
+            RPBannerView.hiddenBanner()
         }
     }
 }

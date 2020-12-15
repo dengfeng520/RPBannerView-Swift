@@ -8,12 +8,13 @@
   "tvOS" : [
 
   ],
-  "commitish" : "9fb0f978c5f505eaca9a4234b5c7efbeda6edeec",
+  "commitish" : "ba6c1701141c75fdecae4998d13083ccf56dc298",
   "iOS" : [
     {
+      "hash" : "781d6daca8ee8fe1436323cd6b72707c80ebe46b60db62b956e5e5fd629375ee",
       "name" : "RPBannerView",
-      "hash" : "3dff979754a821cfc6a79c4a39570d0964fb498ab81f8f7225d9f503d713747d",
-      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
     }
   ]
 }

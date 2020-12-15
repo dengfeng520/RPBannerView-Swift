@@ -70,7 +70,7 @@ RPBanner.hiddenBanner()
   display.backColor = UIColor(red: 245.0/255.0, green: 190.0/255.0, blue: 98.0/255.0, alpha: 1)
   display.titleColor = .white
   display.titleFontSize = 14.5
-  RPBanner.showBanner(display)
+  RPBannerView.showBanner(display)
 ```
 
 ![自定义View](https://github.com/dengfeng520/RPBannerView-Swift/blob/master/A18.jpg?raw=true)
@@ -78,7 +78,7 @@ RPBanner.hiddenBanner()
 * 4、兼容OC版本
 
 ```
-RPBanner.show(with: .warningMode, body: "test test test test test", isView: self.view)
+RPBannerView.show(with: .warningMode, body: "test test test test test", isView: self.view)
 ```
 
 <h3>CocoaPods</h3>
@@ -96,9 +96,9 @@ pod install
 
 ```
 // 显示 
-RPBanner.showBanner(BannerDisplay(title: "test loading..." ,backColor: UIColor.red, addView: view ,time: 0, mode: .mobileMode))
+RPBannerView.showBanner(BannerDisplay(title: "test loading..." ,backColor: UIColor.red, addView: view ,time: 0, mode: .mobileMode))
 // 隐藏
-RPBanner.hiddenBanner()
+RPBannerView.hiddenBanner()
 ```
 
 
