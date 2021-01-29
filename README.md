@@ -1,5 +1,6 @@
-
+<div style="text-align: center;">
 ![RPBanner](https://github.com/dengfeng520/RPBannerView-Swift/blob/master/Banner.png?raw=true)
+</div>
 <h2 align="center">RPBannerView</h2>
 
 ![](https://img.shields.io/badge/language-swift-orange.svg)
