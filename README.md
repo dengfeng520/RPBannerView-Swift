@@ -1,11 +1,12 @@
+
+<center>![RPBanner](https://github.com/dengfeng520/RPBannerView-Swift/blob/master/Banner.png?raw=true)</center>
+<h2 align="center">RPBannerView</h2>
+
 ![](https://img.shields.io/badge/language-swift-orange.svg)
 ![](https://img.shields.io/cocoapods/l/RPBannerView-Swift.svg?style=flat)
 ![](https://img.shields.io/cocoapods/p/RPBannerView-Swift.svg?style=flat)
 ![](https://img.shields.io/cocoapods/v/RPBannerView-Swift.svg?style=flat)
 ![](https://img.shields.io/badge/carthage-v1.0-519dd9.svg)
-
-
-<h2 align="center">RPBannerView</h2>
 
 **RPBannerView**是一个轻量级的Banner提示框。支持**iOS 11、Swift 5.0**之后的版本。推荐使用**CocoaPods**和**Carthage**将其添加到工程中。
 
