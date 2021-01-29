@@ -1,5 +1,5 @@
-<div>
-![RPBanner](https://github.com/dengfeng520/RPBannerView-Swift/blob/master/Banner.png?raw=true)
+<div align=center>
+ <img src="https://github.com/dengfeng520/RPBannerView-Swift/blob/master/Banner.png?raw=true" width = 314 height = 200/>
 </div>
 <h2 align="center">RPBannerView</h2>
 
